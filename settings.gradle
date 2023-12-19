@@ -17,3 +17,4 @@ rootProject.name = "BenchmarkDemo"
 include ':app'
 include ':benchmark'
 include ':benchmark2'
+include ':benchmark_macro'

@@ -32,6 +32,12 @@ android {
             matchingFallbacks = ['release']
             debuggable false
         }
+        benchmark1 {
+            initWith release
+            signingConfig signingConfigs.debug
+            matchingFallbacks = ['release']
+            debuggable false
+        }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

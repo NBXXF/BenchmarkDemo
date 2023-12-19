@@ -24,6 +24,9 @@ class ExampleBenchmark {
     fun log() {
         benchmarkRule.measureRepeated {
             Log.d("LogBenchmark", "the cost of writing this log method will be measured")
+            this.runWithTimingDisabled {
+                Thread.sleep(1000)
+            }
         }
     }
 }
