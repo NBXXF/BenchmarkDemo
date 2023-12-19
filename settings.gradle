@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "BenchmarkDemo"
 include ':app'
 include ':benchmark'
+include ':benchmark2'
